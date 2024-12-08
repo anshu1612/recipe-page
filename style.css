@@ -1,0 +1,112 @@
+html{
+    font-size: 62.5%;
+}
+:root{
+--font-primary:"Young Serif";
+--heading-primary:hsl(24, 5%, 18%);
+--heading-secondary:hsl(14, 45%, 36%);
+--text:hsl(30, 10%, 34%);
+}
+body{
+   font-family: "Outfit",sans-serif;
+   color: var(--text);
+}
+main{
+margin: 20px;
+}
+.omlette{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.title{
+    font-family: var(--font-primary),sans-serif;
+    color: var(--heading-primary);
+    font-weight: 500;
+    font-size: 3rem;
+
+}
+
+.description{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+.time{
+    background-color:hsl(330, 100%, 98%) ;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+.time-title{
+    color: hsl(332, 51%, 32%);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.list{
+list-style-type: disc;
+}
+.list-primary{
+    padding-left: 20px;
+    margin-bottom: 3rem;
+}
+.box{
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+.items{
+    position: relative;
+    font-size: 1.6rem;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+    line-height: 2.5rem;
+    }
+.box-title{
+    color: var(--heading-secondary);
+    font-family: "Young Serif",sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+table, td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-collapse: collapse;
+    color: var(--text);
+    font-size: 1.6rem;
+  }
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+    padding: 1rem;
+}
+.brown{
+    color:var(--heading-secondary);
+    font-weight: bold;
+}
+
+/* ## Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+
+Body Copy
+
+- Font size (paragraph): 16px
+
+Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700 */
