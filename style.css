@@ -85,6 +85,23 @@ td{
     font-weight: bold;
 }
 
+@media screen and (min-width:375px){
+    body{
+        background-color:hsl(30, 54%, 90%) ;
+       
+        display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+    main{
+        background-color: white;
+        padding: 30px;
+        border-radius: 20px;
+        max-width: 50%;
+        
+    }
+}
+
 /* ## Colors
 
 - White: hsl(0, 0%, 100%)
